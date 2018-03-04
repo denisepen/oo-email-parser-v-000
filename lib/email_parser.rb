@@ -7,8 +7,8 @@ class EmailParser
   def initialize(emails)
       end
    def parse
-     @emails.split(/[ , ]/)
-     parsed = @emails = emails
+     parsed = @emails.split(/[ , ]/)
+     
      parsed.uniq
    end
 
