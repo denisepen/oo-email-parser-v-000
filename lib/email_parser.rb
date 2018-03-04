@@ -11,7 +11,7 @@ class EmailParser
 
    def parse
 
-      array = @emails.split(/[\s ,*]/)
+      array = @emails.split(/[\s *,*]/)
       #  @emails.split(", ") && array =
 
 
