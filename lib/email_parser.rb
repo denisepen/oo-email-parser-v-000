@@ -13,6 +13,8 @@ class EmailParser
 
       array = @emails.tr(", "," ").split
       #  @emails.split(", ") && array =
+      @array = array
+      @array.uniq
 
 
    end
